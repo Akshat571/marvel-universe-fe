@@ -5,11 +5,14 @@ function loginVerify(email, password) {
         { email: 'akshatdivya@infrrd.ai', password: '789' }
     ];
 
-    for (let i = 0; i < usersList.length; i++) {
-        if (usersList[i].email === email && usersList[i].password === password) {
-            document.getElementById('message').value = "Login Successful!"
-            return;
-        }
-    }
-    document.getElementById('message').value = "Login Failed!"
+    usersList.find((user) => {
+        (user.email === email && user.password === password) ? success() : failure();
+    })
+}
+
+function success() {
+    document.getElementById('message').innerHTML = "Login Successful!";
+}
+function failure() {
+    document.getElementById('message').innerHTML = "Login Failed!";
 }
