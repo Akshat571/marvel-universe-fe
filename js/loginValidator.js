@@ -7,9 +7,9 @@ function loginVerify(email, password) {
 
     for (let i = 0; i < usersList.length; i++) {
         if (usersList[i].email === email && usersList[i].password === password) {
-            alert('Login Completed!');
+            document.getElementById('message').value = "Login Successful!"
             return;
         }
     }
-    alert("Login Failed!");
+    document.getElementById('message').value = "Login Failed!"
 }
