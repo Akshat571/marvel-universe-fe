@@ -5,14 +5,9 @@ function loginVerify(email, password) {
         { email: 'akshatdivya@infrrd.ai', password: '789' }
     ];
 
-    usersList.find((user) => {
-        (user.email === email && user.password === password) ? success() : failure();
-    })
-}
-
-function success() {
-    document.getElementById('message').innerHTML = "Login Successful!";
-}
-function failure() {
-    document.getElementById('message').innerHTML = "Login Failed!";
+    let user = usersList.find(user => user.email === email && user.password === password);
+    if (user === undefined)
+        document.getElementById('message').innerHTML = "Login Failed!";
+    else
+        document.getElementById('message').innerHTML = "Login Successful!";
 }
