@@ -1,6 +1,13 @@
 body {
   font-size: 62.5%;
-  background-color: #202020;
+  background-image: linear-gradient(
+    to right top,
+    #202020,
+    #292929,
+    #313233,
+    #3a3b3d,
+    #434547
+  );
   height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -52,12 +59,8 @@ img {
 #message {
   position: absolute;
   text-align: center;
-  width: 20rem;
-  height: 2rem;
-  color: #fff;
-  top: 6%;
-  left: 37.3%;
-  background-color: #202020;
+  top: 90%;
+  left: 18.3%;
   border: 0;
   font-size: 1.2rem;
 }
