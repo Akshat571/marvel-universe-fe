@@ -1,5 +1,4 @@
 body {
-  font-size: 62.5%;
   background-image: linear-gradient(
     to right top,
     #202020,
@@ -13,8 +12,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .login-container {
-  height: 22rem;
-  width: 22rem;
+  height: 300px;
+  width: 300px;
   position: absolute;
   top: 18%;
   left: 36%;
@@ -24,11 +23,12 @@ body {
 
 #email-container,
 #password-container {
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
 input[type="email"],
 input[type="password"] {
+  width: 200px;
   outline: 0;
   border: 1px solid lightgray;
   border-radius: 5px;
@@ -36,8 +36,8 @@ input[type="password"] {
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 
-input[type="button"] {
-  width: 11.4rem;
+button {
+  width: 218px;
   padding: 10px;
   background-color: #e62429;
   color: white;
@@ -51,16 +51,15 @@ input[type="password"]:focus {
 }
 
 img {
-  width: 10rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  width: 126px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #message {
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 90%;
-  left: 18.3%;
+  left: 2.3%;
   border: 0;
-  font-size: 1.2rem;
+  font-size: 15px;
 }
