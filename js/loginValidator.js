@@ -6,8 +6,10 @@ function loginVerify(email, password) {
     ];
 
     let user = usersList.find(user => user.email === email && user.password === password);
-    if (user === undefined)
-        document.getElementById('message').innerHTML = "Login Failed!";
-    else
+    if (user) {
         document.getElementById('message').innerHTML = "Login Successful!";
+    }
+    else {
+        document.getElementById('message').innerHTML = "Login Failed!";
+    }
 }
