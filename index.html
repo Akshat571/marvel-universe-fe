@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/loginValidator.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Login | Marvel Universe</title>
+    <link
+      rel="shortcut icon"
+      href="images/captain-america.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="login-container">
+      <img src="images/marvel.svg" alt="" />
+      <form id="login-data" method="GET">
+        <div id="email-container">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+          />
+        </div>
+        <div id="password-container">
+          <input
+            type="password"
+            name="password"
+            id="pwd"
+            placeholder="Password"
+          />
+        </div>
+        <button type="button" onclick="loginVerify(email.value, pwd.value)">
+          SIGN IN
+        </button>
+        <p id="message"></p>
+      </form>
+    </div>
+  </body>
+</html>
