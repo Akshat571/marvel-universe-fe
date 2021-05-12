@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <script src="js/handlebars-v4.7.7.js"></script>
+    <title>Home | Marvel Universe</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-1">
+        <span id="user-name"></span>
+        <span
+          ><input
+            type="text"
+            id="search"
+            placeholder="Search hero..."
+            onkeyup="search()"
+        /></span>
+
+        <script src="js/loginValidator.js"></script>
+        <span><img id="header-logo" src="images/marvel.svg" alt="" /></span>
+        <span><a href="popular.html">Popular</a></span>
+        <span
+          ><button id="button-202020" onclick="logout()">LOGOUT</button></span
+        >
+      </nav>
+    </header>
+    <article id="card-container">
+      <script id="hero-card-template" type="text/x-handlebars-template">
+        {{#each heros}}
+          <div class="card">
+            <img src="{{image_url}}" alt="" />
+            <h2 class="hero-name">{{name}}</h2>
+          </div>
+        {{/each}}
+      </script>
+    </article>
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+    <footer>
+      <nav>
+        <span
+          ><img src="images/icons/fb.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/insta.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/twitter.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/tumblr.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/snapchat.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/youtube.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/pintrest.png  " alt="" class="footer-icon"
+        /></span>
+      </nav>
+    </footer>
+  </body>
+</html>

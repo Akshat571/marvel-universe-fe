@@ -1,0 +1,52 @@
+{
+    "heros" : [
+        {
+            "name":"SPIDER MAN",
+            "image_url":"../images/hero-icon/spider-man.jpg"
+        },
+        {
+           "name":"VENOM",
+           "image_url":"../images/hero-icon/venom.jpg"
+       },
+       {
+           "name":"GHOST SPIDER",
+           "image_url":"../images/hero-icon/ghost-spider.jpg"
+       },
+
+       {
+           "name":"IRON MAN",
+           "image_url":"../images/hero-icon/iron-man.jpg"
+       },
+       {
+           "name":"CAPTAIN AMERICA",
+           "image_url":"../images/hero-icon/captain-america.jpg"
+       },
+       {
+           "name":"THOR",
+           "image_url":"../images/hero-icon/thor.jpg"
+       },
+       {
+           "name":"STAR LORD",
+           "image_url":"../images/hero-icon/star-lord.jpg"
+       },
+       {
+           "name":"ROCKET RACOON",
+           "image_url":"../images/hero-icon/rocket-racoon.jpg"
+       },
+       {
+           "name":"GROOT",
+           "image_url":"../images/hero-icon/groot.jpg"
+       },   
+       {
+           "name":"MS. MARVEL",
+           "image_url":"../images/hero-icon/mrs-marvel.jpg"
+       },
+       {
+           "name":"BLACK-WIDOW",
+           "image_url":"../images/hero-icon/BLACK-WIDOW.jpg"            },
+       {
+           "name":"CAPTAIN MARVEL",
+           "image_url":"../images/hero-icon/captain-marvel.jpg"
+       }
+    ]
+}
