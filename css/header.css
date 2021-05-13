@@ -37,13 +37,13 @@ header nav span a {
   width: 150px;
 }
 
-#button-202020 {
+.button-202020 {
   outline: 0;
   background: #202020;
   border: 0;
   color: aliceblue;
 }
 
-#button-202020:hover {
+.button-202020:hover {
   color: lightgray;
 }
