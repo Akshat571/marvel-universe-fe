@@ -4,9 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/popular-card.css" />
+    <script src="js/handlebars-v4.7.7.js"></script>
+    <script src="/js/icon-button.js"></script>
     <title>Popular Heros | Marvel Universe</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
-    welcome to popular heros page!
+    <header>
+      <nav class="nav-1">
+        <span id="user-name"></span>
+        <span
+          ><input
+            type="text"
+            id="search"
+            placeholder="Search hero..."
+            onkeyup="searchPopular()"
+        /></span>
+        <script src="js/loginValidator.js"></script>
+        <span><a href="home.html"><img id="header-logo" src="images/marvel.svg" alt="" /></a></span>
+        <span
+          ><button class="button-202020" onclick="sortByName()">
+            Sort
+          </button></span
+        >
+        <span><a href="popular.html">Popular</a></span>
+        <span
+          ><button class="button-202020" onclick="logout()">
+            LOGOUT
+          </button></span
+        >
+      </nav>
+    </header>
+    <article id="card-container">
+      <script id="hero-card-template" type="text/x-handlebars-template">
+        {{#each heros}}
+          <div class="card">
+            <span class="like-unlike-container">
+              <div><button id = "{{id}}-like" onclick="likeChecker(this.id.charAt(0))" class="lu-button mdc-icon-button material-icons">thumb_up</button></div>
+              <div><button id = "{{id}}-unlike" onclick="unlikeChecker(this.id.charAt(0))"class="lu-button mdc-icon-button  material-icons">thumb_down</button></div>
+            </span>
+            <img src="{{image_url}}" alt="" class = "hero-icon" />
+            <h2 class="hero-name">{{name}}</h2>
+            <div class = "hero-desc">{{about}}</div>
+          </div>
+        {{/each}}
+        
+      </script>
+    </article>
+    <script src="js/main.js"></script>
+    <script src="js/utility.js"></script>
+    <footer>
+      <nav>
+        <span
+          ><img src="images/icons/fb.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/insta.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/twitter.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/tumblr.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/snapchat.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/youtube.png" alt="" class="footer-icon"
+        /></span>
+        <span
+          ><img src="images/icons/pintrest.png  " alt="" class="footer-icon"
+        /></span>
+      </nav>
+    </footer>
   </body>
 </html>
