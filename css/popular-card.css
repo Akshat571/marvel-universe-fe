@@ -1,0 +1,65 @@
+body {
+    background-color: #202020;
+  }
+  #card-container {
+    margin-top: 65px;
+    display: grid;
+    grid-template-rows: repeat(4, 385px);
+    grid-template-columns: repeat(3, 308px);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 266px;
+    height: 365px;
+    transition: box-shadow 0.35s;
+    background-color: #202020;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 10px 1px grey;
+    background-color: #292929;
+  }
+  .hero-icon {
+    width: 206px;
+    border-bottom: 5px solid red;
+  }
+  
+  .card h2 {
+    margin: unset;
+    color: aliceblue;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .hero-desc {
+    position: relative;
+    height: 87px;
+    color: darksalmon;
+    text-transform: uppercase;
+    padding-top: 3px;
+    padding-left: 10px;
+  }
+  .like-unlike-container {
+      float: right;
+      margin-right: 16px;
+      margin-top: 20px;
+      
+  }
+
+  .lu-button {
+      width: 36px;
+      background-color: #202020;
+      color: aliceblue;
+      border: 0;
+      padding-bottom: 5px;
+  }
+  .lu-button:hover {
+    background-color: inherit;
+  }
+
+  
