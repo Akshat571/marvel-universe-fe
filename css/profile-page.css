@@ -1,0 +1,42 @@
+body {
+    background-image: url(../images/backgrounds/profile-bg.webp);
+    background-repeat: no-repeat;
+    background-color: #202020;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#hero-title {   
+    color:ivory;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.page-container {
+    margin-top: 90  px;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-container img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-container {
+    position: absolute;
+    top: 365px;
+    padding-left: 125px;
+}
+.about-container img {
+    display: inline-block;
+    margin-left: -50px
+}
+h1 {
+    margin-top: 140px;
+    padding-left: 200px;
+}
+.about-text {
+    position: relative;
+    margin-left: 240px;
+    top: -390px;
+    margin-right: 400px;
+    word-spacing: 2px;
+}
