@@ -7,8 +7,8 @@ function loginVerify(email, password) {
 
     let user = usersList.find(user => user.email === email && user.password === password);
     if (user) {
-        window.localStorage.setItem(user.email, user.name);
-        window.location.href = "home.html?email=" + email;
+        window.localStorage.setItem("email", user.name);
+        window.location.href = "home.html"
     }
     else {
         document.getElementById('message').innerHTML = "Login Failed!";
