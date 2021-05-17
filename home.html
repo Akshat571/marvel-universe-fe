@@ -20,7 +20,7 @@
             type="text"
             id="search"
             placeholder="Search hero..."
-            onkeyup="search()"
+            onkeyup="searchHome()"
         /></span>
         <script src="js/loginValidator.js"></script>
         <span><img id="header-logo" src="images/marvel.svg" alt="" /></span>
@@ -39,12 +39,15 @@
     </header>
     <article id="card-container">
       <script id="hero-card-template" type="text/x-handlebars-template">
+        
         {{#each heros}}
           <div class="card">
-            <img src="{{image_url}}" alt="" />
+            <a href="hero_profile.html?name={{name}}"><img src="{{image_url}}" alt="" /></a>
             <h2 class="hero-name">{{name}}</h2>
+            <div>{{about}}</div>
           </div>
         {{/each}}
+        
       </script>
     </article>
     <script src="js/main.js"></script>
