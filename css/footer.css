@@ -1,0 +1,20 @@
+footer {
+  position: static;
+}
+footer nav {
+  text-align: justify;
+  background-color: #202020;
+  color: aliceblue;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top:18px;
+}
+
+footer nav:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.footer-icon {
+  width: 30px;
+}

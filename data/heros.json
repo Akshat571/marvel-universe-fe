@@ -1,0 +1,160 @@
+{
+    "heros" : [
+        {
+            "id":1,
+            "name":"SPIDER MAN",
+            "image_url":"../images/hero-icon/spider-man.jpg",
+            "about": "My Spider-Sense is tingling!",
+            "profile_pic": "../images/hero-icon/spider-man-pp.webp",
+            "intro": "The bite from a radioactive spider granted Peter Parker amazing arachnid-like powers. After losing his beloved Uncle Ben to a burglar, grief- stricken Peter vowed to use his incredible abilities to protect his city as the Amazing Spider-Man. Peter’s trials taught him an invaluable lesson: with great power, there must also come great responsibility.",
+            "features" :["Superhuman strength, agility, endurance, ability to stick to and climb walls and other surfaces, uses self-designed web-shooters allowing him to fire and swing from sticky webs, special Spider-Sense warns of incoming danger, genius intellect specializing in chemistry and invention."]
+        },
+        {
+            "id":2,
+           "name":"VENOM",
+           "image_url":"../images/hero-icon/venom.jpg",
+           "about":"Let There Be Carnage!",
+           "profile_pic": "../images/hero-icon/venom-pp.webp",
+           "intro":"In an alternate universe, a twist of fate caused Midtown High student Gwen Stacy to receive the bite of a radioactive spider instead of Peter Parker, granting her amazing arachnid-like abilities. Dubbed Spider-Woman by the media, Stacy donned a unique costume and endeavored to exploit her newfound talents for personal gain and attention. However, when Parker, desperate to be special like his new idol Spider-Woman, died in a tragic lab experiment gone wrong, Stacy learned that with great power there must also come great responsibility. Now she uses her powers to protect the innocent, balancing her life as Spider-Woman with the challenges of teenage life.",
+           "features":[
+            "Superhuman strength, agility, and endurance",
+            "Ability to stick to and climb walls and other surfaces",
+            "Special Spider-Sense warns of incoming danger",
+            "Uses mechanical web-shooters, allowing her to fire and swing from sticky webs."]
+       },
+       {
+        "id":3,
+           "name":"GHOST SPIDER",
+           "image_url":"../images/hero-icon/ghost-spider.jpg",
+            "about":"Spider-Gwen!",
+            "profile_pic": "../images/hero-icon/ghost-spider-pp.webp",
+            "intro":"In an alternate universe, a twist of fate caused Midtown High student Gwen Stacy to receive the bite of a radioactive spider instead of Peter Parker, granting her amazing arachnid-like abilities. Dubbed Spider-Woman by the media, Stacy donned a unique costume and endeavored to exploit her newfound talents for personal gain and attention. However, when Parker, desperate to be special like his new idol Spider-Woman, died in a tragic lab experiment gone wrong, Stacy learned that with great power there must also come great responsibility. Now she uses her powers to protect the innocent, balancing her life as Spider-Woman with the challenges of teenage life.",
+           "features":[
+           "Superhuman strength, agility, and endurance",
+           "Ability to stick to and climb walls and other surfaces",
+           "Special Spider-Sense warns of incoming danger",
+           "Uses mechanical web-shooters, allowing her to fire and swing from sticky webs."
+           ]
+       },
+
+       {
+        "id":4,
+           "name":"IRON MAN",
+           "image_url":"../images/hero-icon/iron-man.jpg",
+           "about":"I am Iron Man.",
+           "profile_pic": "../images/hero-icon/iron-man-pp.webp",
+           "intro":"When billionaire industrialist Tony Stark dons his sophisticated steel-mesh armor, he becomes a living high-tech weapon - the world's greatest fighting machine. Tony has primed his ultra modern creation for waging state of the art campaigns, attaining sonic flight, and defending the greater good! He is the Armored Avenger - driven by a heart that is part machine, but all hero! He is the INVINCIBLE IRON MAN!",
+           "features":["Wears modular arc reactor-powered Iron Man armor, granting superhuman strength & durability, the ability to fly & project Repulsor blasts",
+           "Armor is also outfitted with complex tech, including a cutting-edge artificial intelligence, sophisticated sensor systems & other gadgetry",
+           "Genius-level intellect, with particular aptitude in invention & engineering."]
+       },
+       {
+        "id":5,
+           "name":"CAPTAIN AMERICA",
+           "image_url":"../images/hero-icon/captain-america.jpg",
+           "about": "I’m just a kid from Brooklyn.",
+           "profile_pic": "../images/hero-icon/captain-america-pp.webp",
+           "intro":"During WWII, the patriotic Steve Rogers was offered a place in the military's top operation: Rebirth. Injected with an experimental super-serum, Rogers emerged from the treatment with heightened endurance, strength, and reaction time. With extensive training and an indestructible Vibranium shield, Rogers soon became the country's ultimate weapon: CAPTAIN AMERICA! Though frozen in ice during a climactic battle toward the end of the war, Rogers was discovered and revived decades later. Now the living legend continues the war against evil in modern times as a member of The Avengers!",
+           "features":[
+               "Peak physical condition, with heightened strength, endurance & agility",
+               "Master hand-to-hand fighter",
+               "Skilled military leader & strategist",
+               "Equipped with virtually indestructible Vibranium shield."
+           ]
+       },
+       {
+        "id":6,
+           "name":"THOR",
+           "image_url":"../images/hero-icon/thor.jpg",
+           "about":"Mightiest hero of mythology!",
+           "profile_pic": "../images/hero-icon/thor-pp.webp",
+           "intro":"Nordic legend tells the tale of the son of Odin, the heir to the throne of Asgard - he is THOR, renowned as the mightiest hero of mythology! Thor's strength, endurance, and quest for battle are far greater than his Asgardian brethren. The mighty Thor wields an enchanted Uru hammer, Mjolnir, and is master of thunder and lightning.",
+           "features":[
+               "Superhuman strength, speed, endurance & resistance to injury",
+               "Member of the otherworldly & virtually immortal Asgardian race",
+               "Wields the enchanted Uru-forged hammer Mjolnir, which grants mastery over the elements of thunder & lightning, as well as the ability to fly & open interdimensional gateways."
+           ]
+       },
+       {
+        "id":7,
+           "name":"STAR LORD",
+           "image_url":"../images/hero-icon/star-lord.jpg",
+           "about":"the leader of the Guardians of the Galaxy.",
+           "profile_pic": "../images/hero-icon/star-lord-pp.webp",
+           "intro":"A headstrong intergalactic adventurer, Peter Quill was taken from his Earthly home at a young age, growing up in outer space alongside the pirate-like Ravagers. As the intrepid Star-Lord, Quill travels the cosmos in his spaceship, the Milano, seeking his fortune. Equipped with a high- tech blaster and a mix-tape of music from home, Star-Lord leads an unlikely team of interstellar misfits – the Guardians of the Galaxy – in their attempts to do a little good, a little bad, a little of both!",
+           "features":[
+            "Unique blaster that only works in Star-Lord's hands",
+            "High-tech mask grants a variety of vision modes and supplies oxygen even in the vacuum of space",
+            "Adept hand-to-hand combatant and marksman",
+            "Gifted strategist, with aptitude for thinking outside the box."
+        ]
+       },
+       {
+        "id":8,
+           "name":"ROCKET RACOON",
+           "image_url":"../images/hero-icon/rocket-racoon.jpg",
+           "about":"Ain’t no thing like Rocket, ‘cept Rocket.",
+           "profile_pic": "../images/hero-icon/rocket-racoon-pp.webp",
+           "intro":"Though he may look like a common Earth raccoon, the temperamental Rocket is in fact a one-of-a-kind genetically produced being, originally created on the planet Halfworld. This diminutive, tough- talking creature is a master pilot, engineer, marksman, and weapons specialist. Previously a small-time thief along with his partner Groot, Rocket lends his genius and heavy artillery to the Guardians of the Galaxy, unable to resist the call of adventure (and plunder).",
+           "features":[
+               "Genetically and cybernetically enhanced",
+               "Highly agile, mechanical genius, with particular aptitude in engineering, vehicles, and heavy mutations",
+               "Intuitive ability to pilot most vehicles."
+           ]
+       },
+       {
+        "id":9,
+           "name":"GROOT",
+           "image_url":"../images/hero-icon/groot.jpg",
+           "about":"I am Groot.",
+           "profile_pic": "../images/hero-icon/groot-pp.webp",
+           "intro":"The last surviving member of a tree-like alien race, Groot is perhaps one of the most unusual beings in all the cosmos. Though calm and quiet in most instances, he is known to unleash his tremendous strength on any enemy foolish enough to threaten his allies, particularly his long- time partner in crime, Rocket. Though he can only vocalize using the phrase, “I am Groot,” the gentle giant’s friends are nevertheless able to understand his exact meaning through his subtle inflections.",
+           "features":[
+               "Superhuman strength",
+               "Ability to quickly regenerate after enduring physical damage",
+               "Plantlike form enables him to grow or reshape his limbs and root himself in place for enhanced stability",
+               "Can emit glowing spores."
+           ]
+       },   
+       {
+        "id":10,
+           "name":"MS. MARVEL",
+           "image_url":"../images/hero-icon/mrs-marvel.jpg",
+            "about":"Kamala Khan aka Ms. Marvel.",
+            "profile_pic": "../images/hero-icon/mrs-marvel.webp",
+            "intro":"Kamala is a fan of most Super Heroes...especially her mentor, Captain Marvel. She has near encyclopedic knowledge of the Avengers and is not afraid to show it. She's got a big heart and isn't as quick to judge others as some of her teammates, allowing her to find the truth about Inferno. Kamala is getting pretty good at using her new powers and is determined to prove that she can be a great hero alongside her new teammates. Her positive attitude and loyalty to Carol sometimes causes conflict with others, but she strives to create team unity, and her enthusiasm is infectious.",
+           "features":[
+               "Can metamorphically stretch, enlarge or shrink her overall size or parts of her body, even altering her physical appearance",
+               "Is particularly apt at embiggening her fists",
+               "Superhuman healing factor allows her to regenerate from severe wounds."
+           ]
+       },
+       {
+        "id":11,
+           "name":"BLACK-WIDOW",
+           "image_url":"../images/hero-icon/BLACK-WIDOW.jpg",
+           "about":"The super-spy!" ,
+           "profile_pic": "../images/hero-icon/black-widow-pp.png",
+           "intro":"Natasha Romanoff is the super-spy known as the Black Widow! Trained extensively in the art of espionage and outfitted with state-of-the-art equipment, Black Widow's combat skills are virtually unmatched. One of S.H.I.E.L.D's most valuable agents, she has carried out numerous black-ops missions and has recently been assigned by Director Nick Fury to keep an eye on the Avengers.",
+           "features":[
+               "Master in the covert arts of espionage, infiltration & subterfuge",
+               "Expert martial artist, with exceptional agility & athletic ability",
+               "Utilizes advanced weaponry including custom stun batons & Widow's Bite bracelets capable of stunning enemies with electrical discharges."
+           ]      
+        },
+       {
+        "id":12,
+           "name":"CAPTAIN MARVEL",
+           "image_url":"../images/hero-icon/captain-marvel.jpg",
+           "about":"A bold leader who doesn't sugarcoat.",
+           "profile_pic": "../images/hero-icon/captain-marvel-pp.webp",
+           "intro":"A bold leader who doesn't sugarcoat, Carol is guided by a strong sense of duty and honor. She initially assists the promising heroes on their mission to save the world, then finds she must continue to mentor them. Though Carol has a compassionate heart, it will take some time for her to show it; however, she still has the respect and admiration of the team, especially Kamala, Doreen and Rayshaun. Carol brings the heroes together as an official team and ensures they're prepared for the challenges ahead.",
+           "features":[
+               "Superhuman strength, stamina, and durability",
+               "Can fly at high speed and project intense energy blasts",
+               "Can tap into and absorb different forms of energy",
+               "Highly trained military pilot, espionage agent and hand-to-hand combatant."
+           ]
+       }
+    ]
+}
